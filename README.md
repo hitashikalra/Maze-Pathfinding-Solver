@@ -1,15 +1,20 @@
 # Maze Pathfinding Solver
 
 ## Overview
-A Python application that visualizes A* and Dijkstra’s algorithms to solve mazes efficiently, with real-time exploration and shortest-path highlights.
+A C++ application that visualizes A* and Dijkstra’s algorithms to solve mazes efficiently, with real-time exploration and shortest-path highlights.
 
 ## Features
-- **A* Algorithm** (Optimal path with heuristic-based search)
-- **Dijkstra's Algorithm** (Shortest path based on uniform cost)
-- Real-time visualization with explored paths and final shortest path.
+- **A* Algorithm**: Finds the optimal path using a heuristic-based search.
+- **Dijkstra's Algorithm**: Determines the shortest path based on uniform cost.
+- **Real-time Visualization**: Displays explored paths and highlights the final shortest path.
 
 ## Requirements
-Install the required dependencies with:
-```bash
-pip install -r requirements.txt
+Install the required dependencies for building and running the project:
 
+- **C++11 or higher**
+- **SFML** (Simple and Fast Multimedia Library) for graphics.
+
+### Install SFML:
+- On macOS:
+  ```bash
+  brew install sfml
